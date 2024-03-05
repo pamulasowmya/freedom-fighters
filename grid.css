@@ -1,0 +1,36 @@
+body{
+    background-size:2000px 1000px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-image:url(images.jpg);
+    justify-content:center;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    background-color:red;
+    color: aliceblue;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#mains{
+    display:grid;
+    height:200px;
+    width:1050px; 
+    justify-content:center;
+}
+h2{
+    text-align:center;
+}
+#grid{
+    display:grid;
+    height:300px;
+    width:600px;
+    grid-template-columns: auto auto auto auto auto auto;
+    text-align:center;
+}
+img{
+    height:90px;
+    width:90px;
+}
